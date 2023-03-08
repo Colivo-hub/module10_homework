@@ -1,0 +1,49 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 225px;
+  height: 40px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  background: #315efb;
+  transition: 0.3s;
+  }
+
+  .btn svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transform: scale(1.05);
+  }
+  
+.push-btn .svg-first{
+    display: block;
+}
+
+.push-btn .svg-second{
+    display: none;
+}
+
+.push-btn.push_btn_toggle .svg-first{
+  display: none;
+}
+
+.push-btn.push_btn_toggle .svg-second{
+  display: block;
+}
+  
+
